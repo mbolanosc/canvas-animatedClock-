@@ -4,7 +4,6 @@
 
 
 function init() {
-  //CAMBIAR NOMBRE DE VARIABLES
   var canvas = document.querySelector('#canvas');
   document.body.appendChild(canvas);
   var ctx = canvas.getContext("2d");
@@ -24,7 +23,6 @@ function init() {
 	hoursDraw = lines(0, 0, 0, -45, "#D8335B",4,hours);
 
 
-	//porque tiene que ir en una funcion?
   function drawCanvas() {
     //circulo grande
     ctx.beginPath();
